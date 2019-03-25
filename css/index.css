@@ -196,3 +196,61 @@ h1, h2, h3, h4, h5 {
     text-align: center;
     padding: 45px 0 20px 0;
 }
+
+/***************  MEDIA 800PX ******************/
+
+@media(max-width: 800px){
+
+    .topic--wrapper {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .img-header {
+        display: none;
+    }
+
+    .header {
+        height: 120px;
+        padding-top: 14px;
+        position: static;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav {
+        order: 1;
+        
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav li {
+        margin-right: 0;
+    }
+
+    .logo--container { 
+        display:flex;
+        align-items: center;
+        height: 75px;
+        margin-bottom: 14px;
+    }
+    .hero--wrapper{
+        padding-top: 80px;
+        text-align: center;
+    }
+    .hero {
+        margin: 0 auto;
+        width: 300px;
+    }
+    .hero h1 {
+        font-size: 4.8rem;
+
+    }
+    .btn:hover{
+        background-color: #fff;
+        color: black;
+    }
+    .nav li a:hover {
+        color: #b3b3b3;
+    }
+}
