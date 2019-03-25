@@ -185,3 +185,52 @@ h1, h2, h3, h4, h5 {
         font-size: 4rem;
     }
 }
+
+
+/***************  MEDIA 760PX ******************/
+@media(min-width: 760px){
+    .nav {
+        flex-direction: row;
+    }
+    .nav li {
+        border-bottom: none;
+    }
+    .nav li a {
+        font-size: .9rem;
+    }
+    .nav li:nth-child(1){
+        border-top: none;
+    }
+    .hero h1 {
+        font-size: 4.8rem;
+    }
+    .hero {
+        width: 300px;
+    }
+    .topics-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .features, .about {
+        width: 48%;   
+    }
+    .topic:not(.vision) {
+        padding-bottom: 20px;
+    }
+    .topics-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 10px 0 10px;
+    }
+    .topic.services{
+        padding-top: 0px;
+    }
+    .services, .product, .vision {
+        width: 30%;
+    }
+    .break-line--bottom {
+        margin-bottom: 40px; 
+        margin-top: 16px;
+    }
+}
