@@ -68,3 +68,131 @@ h1, h2, h3, h4, h5 {
 
 
 
+
+.master-wrapper {
+    margin: 0 auto;
+    max-width: 878px;
+}
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 878px;
+    background-color: #fff;
+}
+
+.nav {
+    flex: 1;
+    display: flex;
+}
+
+.nav li {
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: .9rem;
+    transition: color .3s ease-in;
+}
+.nav li a:hover {
+    color: black;
+}
+
+.logo {
+    flex: 1;
+    margin-left: 15px;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    width: 183px;
+    height: 36px;
+}
+
+.hero--wrapper {
+    padding: 120px 0 55px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.hero {
+    width: 300px;
+}
+.hero h1 {
+    font-size: 4.8rem;
+}
+
+.img-header {
+    background-image: url('../img/header-img.png');
+    background-repeat: no-repeat;
+    height: 379px;
+    width: 379px;
+    display: block;
+}
+
+.btn{
+    width: 175px;
+    font-size: 1rem;
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+    transition: background .2s ease-in;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.break-line--top {
+    height: 2px; 
+    width: 100%; 
+    background-color: black;
+    margin-bottom: 40px; 
+}
+
+.topics-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+.topic:not(.vision) {
+    padding-bottom: 30px;
+}
+
+.middle-img {
+    background-image: url('../img/mid-page-accent.jpg');
+    width: 100%;
+}
+
+.features, .about {
+    width: 48%;   
+}
+
+.topics-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 0 0px;
+}
+
+.services, .product, .vision {
+    width: 30%;
+}
+
+.break-line--bottom {
+    margin-bottom: 40px; 
+    margin-top: 16px;
+    height: 2px; 
+    width: 100%; 
+    background-color: black;
+}
+
+.copyright {
+    text-align: center;
+    padding: 45px 0 20px 0;
+}
