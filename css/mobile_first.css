@@ -234,3 +234,68 @@ h1, h2, h3, h4, h5 {
         margin-top: 16px;
     }
 }
+
+/***************  MEDIA 980PX ******************/
+
+@media(min-width: 980px){
+    .master-wrapper {
+        margin: 0 auto;
+        max-width: 878px;
+    }
+    
+   
+    .header {
+        position: fixed;
+        height: 70px;
+        width: 878px;
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+    }
+
+    .nav {
+        order: 0;    
+    }
+    .nav li {
+        margin-right: 60px;
+    }
+    .nav li a {
+        color: #b3b3b3;
+        transition: color .3s ease-in;
+    }
+    .nav li a:hover{
+        color: black;
+    }
+
+    .logo {
+        flex: 1;
+        margin-left: 15px;
+    }
+    
+    .topic--wrapper{
+        width: 100%;
+    }
+
+    .hero--wrapper {
+        padding-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .img-header {
+        display: block;
+    }
+
+    .btn {
+        transition: background .2s ease-in;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: black;
+        color: #fff;
+    }
+}
